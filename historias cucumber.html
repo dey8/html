@@ -1,0 +1,298 @@
+﻿<html>
+	<head>
+		<style>
+			table {
+				width: 100%;
+				padding: 15px;
+				background-color: #F5F5DC;
+			}
+
+			a:link {
+    				color:#000000;
+    				background-color:transparent;
+    				text-decoration:none;
+			}
+			a:visited {
+				color:#000000;
+ 				background-color:transparent;
+    				text-decoration:none;
+			}
+			a:hover {
+    				color:000000;
+    				background-color:transparent;
+    				text-decoration:underline;
+			}
+			a:active {
+    				color:#000000;
+    				background-color:transparent;
+    				text-decoration:underline;
+			}
+		</style>
+	</head>
+
+	<body>
+		<font face="monospace">
+			<div class="divspoiler">
+			<a href="javascript:void(0);" onclick="if (this.parentNode.nextSibling.childNodes[0].style.display != '') { this.parentNode.nextSibling.childNodes[0].style.display = ''; } else { this.parentNode.nextSibling.childNodes[0].style.display = 'none';}" ><h3 style="color:#0A7D4B">US01 Gestionar información de monitores</h3></a>
+			</div><div><div class="spoiler" style="display: none;">
+				<table>
+				<tr><td>
+				<b>Feature:</b> Gestionar información de monitores<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Para poder gestionar información de monitores<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Un gerente<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tiene que poder añadir, listar, modificar y borrar los monitores del sistema<br><br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Scenario:</b> Dar de alta un nuevo monitor<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Given</b> Yo estoy logueado<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>When</b> Yo doy de alta un nuevo monitor<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Then</b> Yo debería ver al nuevo monitor en el sistema.<br><br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Scenario:</b> Listar monitores<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Given</b> Yo estoy logueado<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>When</b> Yo voy al apartado de monitores en el sistema<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Then</b> Yo debería ver la lista de los monitores dados de alta.<br><br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Scenario:</b> Modificar un monitor<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Given</b> Yo estoy logueado<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>When</b> Yo modifico los datos de un monitor<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Then</b> Yo visualizo los datos del monitor cambiados<br><br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Scenario:</b> Dar de baja un monitor<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Given</b> Yo estoy logueado<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>When</b> Yo doy de baja a un monitor<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Then</b> Yo no debería ver al monitor en el sistema<br><br><br>
+				</td></tr>
+				</table>
+			</div></div>
+			<br>
+
+			<div class="divspoiler">
+			<a href="javascript:void(0);" onclick="if (this.parentNode.nextSibling.childNodes[0].style.display != '') { this.parentNode.nextSibling.childNodes[0].style.display = ''; } else { this.parentNode.nextSibling.childNodes[0].style.display = 'none';}" ><h3 style="color:#0A7D4B">US02 Gestionar información de actividades</h3></a>
+			</div><div><div class="spoiler" style="display: none;">
+				<table>
+				<tr><td>
+				<b>Feature:</b> Gestionar información de actividades<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Para poder gestionar información de actividades<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Un gerente<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tiene que poder añadir, listar, modificar y borrar las actividades del sistema<br><br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Scenario:</b> Dar de alta una nueva actividad<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Given</b> Yo estoy logueado<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>When</b> Yo doy de alta una actividad nueva<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Then</b> Yo debería ver la nueva actividad en el sistema.<br><br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Scenario:</b> Listar actividades<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Given</b> Yo estoy logueado<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>When</b> Yo voy al apartado de actividades en el sistema<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Then</b> Yo debera ver la lista de las actividades dadas de alta.<br><br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Scenario:</b> Modificar una actividad<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Given</b> Yo estoy logueado<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>When</b> Yo modifico los datos de una actividad<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Then</b> Yo visualizo los datos del monitor cambiados<br><br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Scenario:</b> Dar de baja una actividad<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Given</b> Yo estoy logueado<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>When</b> Yo doy de baja a una actividad<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Then</b> Yo no deber´ía ver la actividad en el sistema<br><br><br>
+				</td></tr>
+				</table>
+			</div></div>
+			<br>
+
+			<div class="divspoiler">
+			<a href="javascript:void(0);" onclick="if (this.parentNode.nextSibling.childNodes[0].style.display != '') { this.parentNode.nextSibling.childNodes[0].style.display = ''; } else { this.parentNode.nextSibling.childNodes[0].style.display = 'none';}" ><h3 style="color:#0A7D4B">US03 Gestionar información de reservas</h3></a>
+			</div><div><div class="spoiler" style="display: none;">
+				<table>
+				<tr><td>
+				<b>Feature:</b> Gestionar información de reservas<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Para poder gestionar información de reservas<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Un gerente<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tiene que poder aceptar, rechazar y listar las reservas del sistema<br><br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Scenario:</b> Aceptar una reserva<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Given</b> Yo estoy logueado<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>When</b> Yo acepto la reserva pendiente<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Then</b> Yo debería ver la reserva como aceptada.<br><br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Scenario:</b> Rechazar una reserva<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Given</b> Yo estoy logueado<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>When</b> Yo rechazo la reserva pendiente<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Then</b> Yo debería ver la reserva como rechazada<br><br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Scenario:</b> listar las reservas<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Given</b> Yo estoy logueado<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>When</b> Yo voy al apartado de las reservas<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Then</b> Yo visualizo las reservas que hay en el sistema<br><br><br>
+				</td></tr>
+				</table>
+			</div></div>
+			<br>
+			
+			<div class="divspoiler">
+			<a href="javascript:void(0);" onclick="if (this.parentNode.nextSibling.childNodes[0].style.display != '') { this.parentNode.nextSibling.childNodes[0].style.display = ''; } else { this.parentNode.nextSibling.childNodes[0].style.display = 'none';}" ><h3 style="color:#0A7D4B">US04 Consultar reservas de actividades</h3></a>
+			</div><div><div class="spoiler" style="display: none;">
+				<table>
+				<tr><td>
+				<b>Feature:</b> Consultar reservas de actividades<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Para poder ver las actividades que tiene asignadas<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Un monitor<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Debe poder consultar las reservas de actividades asignadas<br><br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Scenario:</b> Consultar reservas de actividades<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Given</b> Estoy logueado como un monitor<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>When</b> Consulto mis reservas de actividades<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Then</b> se debe mostrar las actividades que tengo asignadas<br><br/><br>
+				</td></tr>
+				</table>
+			</div></div>
+			<br>
+			
+			<div class="divspoiler">
+			<a href="javascript:void(0);" onclick="if (this.parentNode.nextSibling.childNodes[0].style.display != '') { this.parentNode.nextSibling.childNodes[0].style.display = ''; } else { this.parentNode.nextSibling.childNodes[0].style.display = 'none';}" ><h3 style="color:#0A7D4B">US05 Recibir información de la reserva</h3></a>
+			</div><div><div class="spoiler" style="display: none;">
+				<table>
+				<tr><td>
+				<b>Feature:</b> Recibir información de la reserva<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Para tener una copia de los datos de la reserva<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Un cliente<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Necesita recibir la información de la reserva<br><br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Scenario:</b> Recibo la información por email y PDF<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Given</b> Relleno los datos de la reserva de Piragüismo<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>And </b>activo la opción de ser notificado por PDF<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>When</b> Realizo la reserva<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Then</b> Debería recibir un email con la información de reserva<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>And</b> un PDF adjunto con los datos de la reserva en formato PDF<br><br><br>
+				</td></tr>
+				</table>
+			</div></div>
+			<br>
+			
+			<div class="divspoiler">
+			<a href="javascript:void(0);" onclick="if (this.parentNode.nextSibling.childNodes[0].style.display != '') { this.parentNode.nextSibling.childNodes[0].style.display = ''; } else { this.parentNode.nextSibling.childNodes[0].style.display = 'none';}" ><h3 style="color:#0A7D4B">US06 Consultar actividades</h3></a>
+			</div><div><div class="spoiler" style="display: none;">
+				<table>
+				<tr><td>
+				<b>Feature:</b> Consultar actividades<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Para poder consultar las actividades y/o reservarlas<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Un cliente<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Debe poder consultar las actividades<br><br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Scenario:</b> Consultar actividades<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Given</b> Estoy logueado como cliente<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>When</b> Consulto las actividades<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Then</b> Debería ver las actividades de Piragüismo y Rafting<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>And</b> junto con la información de las mismas<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>And</b> la opción de reservarlas<br><br><br>
+				</td></tr>
+				</table>
+			</div></div>
+			<br>
+			
+			<div class="divspoiler">
+			<a href="javascript:void(0);" onclick="if (this.parentNode.nextSibling.childNodes[0].style.display != '') { this.parentNode.nextSibling.childNodes[0].style.display = ''; } else { this.parentNode.nextSibling.childNodes[0].style.display = 'none';}" ><h3 style="color:#0A7D4B">US07 Registrar cliente</h3></a>
+			</div><div><div class="spoiler" style="display: none;">
+				<table>
+				<tr><td>
+				<b>Feature:</b> Registrar cliente<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Para poder recibir ofertas y comentar y reservar actividades<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Un usuario<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tiene que poder registrarse<br><br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Scenario:</b> Registrar cliente<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Given</b> Yo no estoy registrado<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>When</b> Yo me doy de <br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Then</b> Yo debería poder comentar y reservar actividades y podré recibir ofertas.<br><br><br>
+				</td></tr>
+				</table>
+			</div></div>
+			<br>
+			
+			<div class="divspoiler">
+			<a href="javascript:void(0);" onclick="if (this.parentNode.nextSibling.childNodes[0].style.display != '') { this.parentNode.nextSibling.childNodes[0].style.display = ''; } else { this.parentNode.nextSibling.childNodes[0].style.display = 'none';}" ><h3 style="color:#0A7D4B">US08 Reservar actividades</h3></a>
+			</div><div><div class="spoiler" style="display: none;">
+				<table>
+				<tr><td>
+				<b>Feature:</b> Reservar actividades<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Para poder inscribirse en actividades<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Un Usuario registrado<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tiene que poder reservar actividades.<br><br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Scenario:</b> Reservar Actividades<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Given</b> Yo estoy registrado<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>When</b> Yo reserve la actividad<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Then</b> El sistema debería realizar y registrar mi reserva<br><br><br>
+				</td></tr>
+				</table>
+			</div></div>
+			<br>
+			
+			<div class="divspoiler">
+			<a href="javascript:void(0);" onclick="if (this.parentNode.nextSibling.childNodes[0].style.display != '') { this.parentNode.nextSibling.childNodes[0].style.display = ''; } else { this.parentNode.nextSibling.childNodes[0].style.display = 'none';}" ><h3 style="color:#0A7D4B">US09 Recibir ofertas</h3></a>
+			</div><div><div class="spoiler" style="display: none;">
+				<table>
+				<tr><td>
+				<b>Feature:</b> Recibir ofertas<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Para poder aprovechar ofertas<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Un Usuario registrado<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tiene que ser notificado cuando se produzcan ofertas<br><br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Scenario:</b> Recibir Ofertas<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Given</b> Yo estoy registrado<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>When</b> El sistema reciba una nueva oferta<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Then</b> El sistema debería notificarme de la oferta<br><br><br>
+				</td></tr>
+				</table>
+			</div></div>
+			<br>
+			
+			<div class="divspoiler">
+			<a href="javascript:void(0);" onclick="if (this.parentNode.nextSibling.childNodes[0].style.display != '') { this.parentNode.nextSibling.childNodes[0].style.display = ''; } else { this.parentNode.nextSibling.childNodes[0].style.display = 'none';}" ><h3 style="color:#0A7D4B">US10 Comentar y puntuar actividades</h3></a>
+			</div><div><div class="spoiler" style="display: none;">
+				<table>
+				<tr><td>
+				<b>Feature:</b> Comentar y puntuar actividades<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Para poder comentar y puntuar actividades<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Un cliente registrado<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tiene que poder comentar y puntuar las actividades en las que ha participado<br><br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Scenario:</b> Comentar un actividad<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Given</b> Yo estoy logueado<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>When</b> Yo he realizado una actividad y la comento<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Then</b> Yo debería ver el comentario<br><br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Scenario:</b> Puntuar una actividad<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Given</b> Yo estoy logueado<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>When</b> Yo he realizado una actividad y la puntuo<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Then</b> Yo debería ver la la puntuacion actual de la actividad<br><br><br>
+				</td></tr>
+				</table>
+			</div></div>
+			<br>
+			
+			<div class="divspoiler">
+			<a href="javascript:void(0);" onclick="if (this.parentNode.nextSibling.childNodes[0].style.display != '') { this.parentNode.nextSibling.childNodes[0].style.display = ''; } else { this.parentNode.nextSibling.childNodes[0].style.display = 'none';}" ><h3 style="color:#0A7D4B">US11 Ver calendario</h3></a>
+			</div><div><div class="spoiler" style="display: none;">
+				<table>
+				<tr><td>
+				<b>Feature: Ver calendario<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Para poder visualizar mejor su horario de trabajo<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Un monitor<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tiene que poder ver sus actividades asignadas en forma de calendario<br><br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Scenario:</b> Ver calendario<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Given</b> Yo estoy logueado<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>When</b> Yo voy al apartado de mi horario<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Then</b> Yo debería ver un calendario con mis actividades asignadas<br><br><br>
+				</td></tr>
+				</table>
+			</div></div>
+			<br>
+			
+			<div class="divspoiler">
+			<a href="javascript:void(0);" onclick="if (this.parentNode.nextSibling.childNodes[0].style.display != '') { this.parentNode.nextSibling.childNodes[0].style.display = ''; } else { this.parentNode.nextSibling.childNodes[0].style.display = 'none';}" ><h3 style="color:#0A7D4B">US12 Notificar</h3></a>
+			</div><div><div class="spoiler" style="display: none;">
+				<table>
+				<tr><td>
+				<b>Feature:</b> Notificar<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Para Crear ofertas<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Y mantener informados a los clientes<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Como Gerente<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Quiero poder notificar de las ofertas<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Scenario:</b> crear ofertas<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Given</b> yo estoy logueado como gerente<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>When</b> Yo doy de alta una nueva oferta<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Then</b> se debe almacenar la oferta<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>And</b> notificar a los clientes registrados de su existencia<br>
+				</td></tr>
+				</table>
+			</div></div>
+			<br>
+			
+			
+		</font>
+
+	</body>
+
+</html>
